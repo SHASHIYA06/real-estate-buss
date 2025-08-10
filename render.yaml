@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: loan-lead-backend
+    env: node
+    repo: https://github.com/SHASHIYA06/real-estate-buss
+    buildCommand: cd backend && npm install
+    startCommand: cd backend && npm start
